@@ -1,0 +1,49 @@
+/*
+Theme Name:   	Storefront Child Theme
+Theme URI:    	https://github.com/stuartduff/storefront-child-theme
+Author:       	Stuart Duff
+Author URI:     http://stuartduff.com
+Template:     	storefront
+Description:  	This is a blank child theme for WooThemes StoreFront theme
+Version:      	1.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront
+Tags:         	black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Storefront is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
+Images License: GNU General Public License v2 or later
+*/
+/*
+ * Add your own custom css below this text.
+ */
+h1.page-title, h1.entry-title {text-align: center;}
+.site-header {padding-top: 0}
+.home.page:not(.page-template-template-homepage) .site-header {margin-bottom: 0;}
+#masthead.site-header {padding-bottom: 0;border-bottom: 13px solid #355c7d}
+button.menu-toggle {border: 0px;height: 110px;}
+button.menu-toggle::before{-webkit-transform:translateY(-8px);-ms-transform:translateY(-8px);transform:translateY(-8px)}button.menu-toggle::after{-webkit-transform:translateY(8px);-ms-transform:translateY(8px);transform:translateY(8px)}
+button.menu-toggle span::before,button.menu-toggle::after,button.menu-toggle::before{height:3px;width:28px;}
+.primary-navigation, .site-header-cart {margin-top: 18px;}
+.storefront-breadcrumb {margin: 0}
+.site-info { overflow: hidden; text-align: center; }
+.site-info:before, .site-info:after { background-color: #e6e6e6; content: ""; display: inline-block; height: 1px; position: relative; vertical-align: middle; width: 50%; }
+.site-info:before { right: 0.5em; margin-left: -50%; }
+.site-info:after { left: 0.5em; margin-right: -50%; }
+.storefront-full-width-content .woocommerce-products-header {padding: 0px}
+.woocommerce-currency-switcher-form a.dd-option {background: #355c7d !important}
+.woocommerce-currency-switcher-form .dd-selected {background: #355c7d}
+.dd-desc {color: #d7d7d7 !important}
+.dd-container {max-width:319px}
+.dd-container .dd-pointer-down{ border:solid 5px transparent; border-top:solid 5px #d7d7d7; }
+.dd-container .dd-pointer-up{border:solid 5px transparent !important; border-bottom:solid 5px #d7d7d7 !important; margin-top:-8px;}
+.button {border-radius:50px}
+.wp-block-button__link {border-radius:50px !important}
+.widget_recent_entries ul li::before, .widget_pages ul li::before {content: "\f054";}
+.site-footer a:not(.button):not(.components-button){color: #d7d7d7; text-decoration: none;}
+body.woocommerce-account ul li.woocommerce-MyAccount-navigation-link--anyuniquetext123 a:before{content: "\f084"}
